@@ -7,11 +7,14 @@ body:
   - type: markdown
     attributes:
       value: |
+        > [!IMPORTANT]
+        > In CSKB, the English pages are significantly less comprehensive than the Chinese pages, so all links redirect to the Chinese pages.
+        
         Before you start, you must confirm:
 
         - You are using the latest version of LauncherX from the current channel.
         - Your issue does not duplicate any existing open or closed issues.
-        - There is no existing solution in the [CSKB](https://kb.corona.studio/zhCN/lxguide/faq.html) FAQ.
+        - There is no existing solution in the [CSKB (Chinese)](https://kb.corona.studio/zhCN/lxguide/faq.html) FAQ.
 
   - type: checkboxes
     id: check
@@ -22,13 +25,13 @@ body:
         - label: I have checked for updates before submitting and confirm I am using the latest version of LauncherX.
           required: true
 
-        - label: I have checked the [Environment Requirements](https://kb.corona.studio/zhCN/lxguide/startup/#%E7%8E%AF%E5%A2%83%E8%A6%81%E6%B1%82) and confirm LauncherX is compatible with my system.
+        - label: I have checked the [Environment Requirements (Chinese)](https://kb.corona.studio/zhCN/lxguide/startup/#%E7%8E%AF%E5%A2%83%E8%A6%81%E6%B1%82) and confirm LauncherX is compatible with my system.
           required: true
 
         - label: My issue does not duplicate any existing open or closed issues.
           required: true
 
-        - label: My issue has no existing solution in the [CSKB](https://kb.corona.studio/zhCN/lxguide/faq.html) FAQ.
+        - label: My issue has no existing solution in the [CSKB (Chinese)](https://kb.corona.studio/zhCN/lxguide/faq.html) FAQ.
           required: true
 
         - label: My issue is not related to Minecraft-specific problems unrelated to LauncherX itself (like Mod conflicts), and I understand that if the issue is related to Minecraft itself, I should report it to the Mod author or Mojang.
@@ -51,6 +54,19 @@ body:
     attributes:
       label: How often does this issue occur?
       placeholder: "(0~100)%"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: update_channel
+    attributes:
+      label: Which update channel are you using?
+      description: Check your current update channel under Settings > Account > Update Channel and Release Branch.
+      options:
+        - Stable
+        - Proton [Slow]
+        - Neutrino [Fast]
+        - Higgs [Fastest]
     validations:
       required: true
 
@@ -117,7 +133,7 @@ body:
     id: log
     attributes:
       label: Logs (if applicable)
-      description: "Refer to [CSKB](https://kb.corona.studio/zhCN/lxguide/report-issue.html#%E5%8F%A6%E5%A4%96-%E5%93%AA%E4%BA%9B%E7%94%A8%E4%BA%8E%E5%8F%8D%E9%A6%88%E7%9A%84%E4%BF%A1%E6%81%AF%E6%98%AF%E6%9C%89%E7%94%A8%E7%9A%84-%E8%AF%A5%E5%A6%82%E4%BD%95%E8%8E%B7%E5%8F%96%E6%9C%89%E7%94%A8%E7%9A%84%E4%BF%A1%E6%81%AF) for instructions on how to obtain relevant logs, and paste the found logs directly here."
+      description: "Refer to [CSKB (Chinese)](https://kb.corona.studio/zhCN/lxguide/report-issue.html#%E5%8F%A6%E5%A4%96-%E5%93%AA%E4%BA%9B%E7%94%A8%E4%BA%8E%E5%8F%8D%E9%A6%88%E7%9A%84%E4%BF%A1%E6%81%AF%E6%98%AF%E6%9C%89%E7%94%A8%E7%9A%84-%E8%AF%A5%E5%A6%82%E4%BD%95%E8%8E%B7%E5%8F%96%E6%9C%89%E7%94%A8%E7%9A%84%E4%BF%A1%E6%81%AF) for instructions on how to obtain relevant logs, and paste the found logs directly here. (Do not upload log files here; paste the content directly.)"
       render: log
 
   - type: textarea

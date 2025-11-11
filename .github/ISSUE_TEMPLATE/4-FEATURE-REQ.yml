@@ -10,6 +10,9 @@ body:
   - type: markdown
     attributes:
       value: |
+        > [!IMPORTANT]
+        > In CSKB, the English pages are significantly less comprehensive than the Chinese pages, so all links redirect to the Chinese pages.
+        
         Before you start, you must confirm:
         
         - You are using the latest version of LauncherX from the current channel.
