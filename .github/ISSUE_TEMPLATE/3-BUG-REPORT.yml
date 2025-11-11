@@ -34,7 +34,7 @@ body:
         - label: My issue is not related to Minecraft-specific problems unrelated to LauncherX itself (like Mod conflicts), and I understand that if the issue is related to Minecraft itself, I should report it to the Mod author or Mojang.
           required: true
 
-        - label: Have you tried asking in the community chat group?
+        - label: I would like to ask in the community chat group. (Optional)
 
   - type: textarea
     id: issue_description

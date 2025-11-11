@@ -28,7 +28,7 @@ body:
         - label: 我确认我的 LauncherX 是当前通道的最新版本, 且没有我需要的功能, 或是功能还有进步的空间.
           required: true
 
-        - label: 我希望在交流群进行问询.
+        - label: 我希望在交流群进行问询. (可选)
 
   - type: textarea
     id: function_description

@@ -34,7 +34,7 @@ body:
         - label: 我的问题与 Mod 冲突之类的与 LauncherX 本身无关的 Minecraft 问题无关, 且我知道问题如果和 Minecraft 本身有关, 我应该向 Mod 作者或 Minecraft 官方反馈.
           required: true
 
-        - label: 你想要在交流群问询吗?
+        - label: 我想要在交流群问询. (可选)
 
   - type: textarea
     id: issue_description

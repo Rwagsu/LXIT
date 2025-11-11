@@ -28,7 +28,7 @@ body:
         - label: I confirm I'm using the latest version of LauncherX in the current channel, and the feature I need is either missing or could be improved.
           required: true
 
-        - label: I'm willing to discuss this in the community chat group if needed.
+        - label: I would like to ask in the community chat group. (Optional)
 
   - type: textarea
     id: function_description
