@@ -12,7 +12,7 @@ body:
         - 你使用的是当前通道最新版本的LauncherX. 
         - 你的问题在所有议题中没有重合.
         - 在 [CSKB](https://kb.corona.studio/zhCN/lxguide/faq.html) 的常见问题中没有现成的解决方案.
-        
+
   - type: checkboxes
     id: check
     attributes:
@@ -117,7 +117,7 @@ body:
     id: log
     attributes:
       label: 日志 (如果适用)
-      description: "从 [CSKB](https://kb.corona.studio/zhCN/lxguide/report-issue.html#%E5%8F%A6%E5%A4%96-%E5%93%AA%E4%BA%9B%E7%94%A8%E4%BA%8E%E5%8F%8D%E9%A6%88%E7%9A%84%E4%BF%A1%E6%81%AF%E6%98%AF%E6%9C%89%E7%94%A8%E7%9A%84-%E8%AF%A5%E5%A6%82%E4%BD%95%E8%8E%B7%E5%8F%96%E6%9C%89%E7%94%A8%E7%9A%84%E4%BF%A1%E6%81%AF) 查阅如何获取相关日志, 并将找到的日志直接粘贴到此处.""
+      description: "从 [CSKB](https://kb.corona.studio/zhCN/lxguide/report-issue.html#%E5%8F%A6%E5%A4%96-%E5%93%AA%E4%BA%9B%E7%94%A8%E4%BA%8E%E5%8F%8D%E9%A6%88%E7%9A%84%E4%BF%A1%E6%81%AF%E6%98%AF%E6%9C%89%E7%94%A8%E7%9A%84-%E8%AF%A5%E5%A6%82%E4%BD%95%E8%8E%B7%E5%8F%96%E6%9C%89%E7%94%A8%E7%9A%84%E4%BF%A1%E6%81%AF) 查阅如何获取相关日志, 并将找到的日志直接粘贴到此处."
       render: log
 
   - type: textarea
